@@ -1,0 +1,49 @@
+.body {
+  max-width: 600px;
+  margin: 0 auto; // căn giữa theo chiều ngang
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box; // Xác định kích thước = kích thược thật + padding + border
+}
+
+Button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(160, 69, 75);
+    color: #f2f2f2;
+  }
+}
+
+Table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  th,
+  td {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  thead {
+    background-color: #f2f2f2;
+  }
+}
